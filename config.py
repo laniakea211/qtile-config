@@ -96,7 +96,7 @@ keys = [
         Key([mod], "f", lazy.spawn("firefox")),
 
         #URXVT
-        Key([mod], "Return", lazy.spawn("urxvt")),
+        Key([mod], "Return", lazy.spawn("gnome-terminal")),
 ]
 
 groups = [Group(i) for i in "123456789"]
